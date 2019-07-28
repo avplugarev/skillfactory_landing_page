@@ -1,0 +1,345 @@
+/*
+
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (max-width: 1200px) { @content; }
+}
+
+@mixin for-big-desktop-up {
+  @media (max-width: 1577px) { @content; }
+}
+
+@mixin for-big-desktop-up {
+  @media (minx-width: 1578px) { @content; }
+}
+
+*/
+
+
+
+
+
+
+
+
+
+    /*for-big-desktop-up*/
+@media screen
+    and (max-width: 1578px) {
+        * {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            padding: 0px;
+        }
+
+        .body {
+            width: 100vw;
+            margin-left: 0%;
+            margin-right: 0%;
+            justify-content: center;
+        }
+
+        .first-flow {
+            width: 100vw;
+        }
+
+        .header {
+            width: 79vw;
+            margin-top: 2%;
+            margin-bottom: 6%;
+        }
+
+        .header__menu {
+            justify-content: space-around;
+
+            padding-left: auto;
+            padding-right: auto;
+
+        }
+
+        .header__menu a {
+            margin-left: 0px;
+        }
+
+        .header__menu-item:link {
+            padding-top: 7.6%;
+            padding-bottom: 6%;
+            padding-right: 2%;
+            padding-left: 2%;
+
+        }
+
+        .intro {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+
+            justify-content: center;
+        }
+
+        .our-services {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+
+        }
+
+        .our-services__list-of_services {
+            min-width: 670px;
+            margin-top: 5%;
+        }
+
+        .team {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .team h2 {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1.8%;
+
+        }
+
+        .team__team-slider {
+            margin-right: auto;
+            margin-left: auto;
+            align-items: center;
+            width: 100%;
+        }
+
+        .team__team-slider-right-section p {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .team__Social-nav {
+            justify-content: space-around;
+            min-width: 450px;
+            margin-left: auto;
+            margin-right:auto;
+        }
+
+        .replay-form {
+            justify-content: space-around;
+
+        }
+
+    }
+
+/*for-desktop-up*/
+@media screen
+    and (max-width: 1200px) {
+
+        .subscribe-form__form {
+            justify-content: space-around;
+            padding-left: 4%;
+            padding-right: 4%;
+
+        }
+
+        .subscribe-form__form-input {
+
+            padding-left: 1%;
+            margin-bottom: 1%;
+        }
+    }
+
+
+/*for-tablet-landscape-up*/
+@media screen
+    and (max-width: 900px) {
+        .our-services__left-block {
+            width: 100%;
+        }
+
+        .our-services__left-block h2 {
+            width: 100%;
+            max-width: 970px;
+            text-align: center;
+        }
+
+        .our-services__left-block p {
+            margin-bottom: 9.15%;
+            width: 100%;
+            max-width: 970px;
+            text-align: center;
+        }
+
+        .our-services__left-block-btn {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .feature-product p {
+            margin-bottom: 1.75%;
+            width: 100%;
+            max-width: 970px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+
+
+
+    }
+
+/*for-tablet-portrait-up*/
+@media screen
+    and (max-width: 600px) {
+
+
+    .intro__intro__batton {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .intro__link-image {
+        width: 100%;
+        min-width: 350px;
+    }
+
+    .intro__left-block {
+        width: 100%;
+        max-width: 700px;
+
+    }
+
+    .intro__left-block {
+        width: 100%;
+        max-width: 970px;
+
+    }
+
+    .intro__h1 {
+        width: 100%;
+        max-width: 970px;
+    }
+
+    .intro__h1 span {
+        line-height: 50px;
+        letter-spacing: 1.5px;
+        max-width: 970px;
+    }
+
+    .our-services__list-of_services {
+        min-width: 350px;
+        margin-top: 5%;
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: center;
+    }
+
+    .team h2 {
+        text-align: center;
+    }
+
+    .team p {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2.3%;
+        text-align: center;
+    }
+
+
+    .team .product__line {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team__team-slider-team-member-left-section {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team__team-slider-right-section {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team__team-slider-right-section h3 {
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    .team__team-slider-right-section p {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4.5%;
+
+    }
+
+    .team__Social-nav {
+        margin-right: auto;
+        margin-left: auto;
+        justify-content: space-between;
+        padding-left: 2%;
+        padding-right: 2%;
+        min-width: 300px;
+    }
+
+    .team__list-of-members {
+        width: 100%;
+        justify-content: center;
+
+
+        margin-right: auto;
+        margin-left: auto;
+
+
+    }
+
+    .team__member-of-team {
+        margin-bottom: 1%;
+
+    }
+
+    .replay-form {
+        justify-content: center;
+        margin-right: 9.7%;
+    }
+
+    .replay-form__left-part {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .replay-form__left-part h2 {
+        justify-content: center;
+
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+/* for phones*/
+    @media screen
+    and (max-width: 500px) {
+        .intro__link-image {
+            width: 44%;
+            max-width: 350px;
+        }
+
+        .intro__video-right-block {
+            min-height: 359px;
+            width: 100%;
+            max-width: 554px;
+
+        }
+    }

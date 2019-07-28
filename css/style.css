@@ -1,0 +1,936 @@
+/*General style for all body*/
+
+/*Pixel Perfect под  Chrome*/
+
+/*подключение шрифтов*/
+
+@font-face {
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-family: OpenSans-Bold ;
+}
+
+@font-face {
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+    font-family: OpenSans-ExtraBold;
+}
+
+@font-face {
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-family: OpenSans-Regular;
+}
+
+
+
+/* Common styles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    padding: 0px;
+
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-style: normal;
+
+    color: #000000;
+
+}
+
+
+h1, h2, h3, h4, h5 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow-wrap: break-word;
+    hyphens: none;
+}
+
+h1 {
+    font-family: OpenSans-ExtraBold, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+    color: #000000;
+
+}
+
+h2 {
+    font-family: OpenSans-Bold, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 41.9876px;
+    letter-spacing: 0.3834px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+h3 {
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-size: 30.127px;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0.275265px;
+}
+
+h4 {
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 24.0692px;
+    color: #000000;
+}
+
+h5 {
+    font-family: OpenSans-Bold, Helvetica, Arial, sans-serif;
+    font-size: 17.9026px;
+    line-height: 34px;
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15.9953px;
+    line-height: 28px;
+    overflow: auto;
+
+}  
+
+
+
+body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+
+    width: 100%;
+    max-width: 1579px;
+    min-height: 4966px;
+
+    top: -0.01px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background: #FFFFFF;
+
+}
+
+/* Styles for the first flow */
+.first-flow {
+    position: relative;
+
+    width: 100%;
+    max-width: 1579px;
+    min-height: 688px;
+
+    background-color: #F6F2F2;
+}
+
+/* Styles for header */
+.header {
+    width: 79%;
+    max-width: 1249px;
+    min-height: 89px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.7%;
+    margin-bottom: 6.4%;
+
+
+    background-color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+
+}
+
+/* Styles for menu*/
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding-left: 29.4%;
+    padding-right: 32.18%
+
+}
+
+.header__menu a:nth-of-type(2) {
+    margin-left: 24px;
+}
+
+.header__menu a:nth-of-type(3) {
+    margin-left: 7px;
+}
+
+.header__menu a:nth-of-type(4) {
+    margin-left: 15px;
+}
+
+
+.header__menu-item {
+
+    font-family: OpenSans-Bold, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+
+    font-size: 14px;
+    line-height: 24px;
+
+    letter-spacing: 0.49px;
+    color: #E0E0E0;
+    text-transform: uppercase;
+
+    text-decoration: none;
+
+}
+
+.header__menu-item:hover {
+    background: #FF3F40;
+
+    text-decoration: none;
+}
+
+.header__menu-item:link {
+    padding-top: 38px;
+    padding-bottom: 26px;
+    padding-right: 27px;
+    padding-left: 12.5px;
+
+}
+
+/* Styles for section intro in the first flow */
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+    width: 79.5%;
+    max-width: 1254px;
+    min-height: 359px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+/* Styles for left block of section intro in the first flow */
+
+.intro__left-block {
+    width: 55%;
+    max-width: 700px;
+
+}
+
+.intro__h1 {
+    max-width: 618px;
+    width: 100%;
+}
+
+.intro__h1 span {
+    font-family: OpenSans-ExtraBold, Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    line-height: 92px;
+    letter-spacing: 10.5px;
+}
+
+.intro__text {
+    margin-top: 1.3%;
+
+    max-width: 544.85px;
+    width: 100%;
+
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15.9953px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+.intro__intro__batton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FF2D2D;
+
+    max-width: 230px;
+    min-width: 108px;
+    width: 32.8%;
+    min-height: 58px;
+
+
+    margin-top: 7.8%;
+    margin-bottom: 12px;
+
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.intro__batton-name {
+    min-width: 108px;
+    width: 100%;
+
+    font-family: OpenSans-Bold, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.0412px;
+
+    line-height: 34px;
+    letter-spacing: 0.3195px;
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.intro__batton-name:hover {
+    text-decoration: underline;
+}
+
+/* Styles for right block of section intro in the first flow */
+
+.intro__link-image {
+    width: 44%;
+    min-width: 350px;
+}
+
+.intro__video-right-block {
+    min-height: 359px;
+    width: 100%;
+    max-width: 554px;
+}
+
+/*Styles for services - second floor*/
+
+.our-services {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-left: 10.25%;
+    margin-right: 8.35%;
+    margin-top: 6.8%;
+
+    max-width: 1285px;
+    min-width: 320px;
+
+    border-bottom-color: #B8B8B8;
+    border-bottom: solid;
+    border-bottom-width: thin;
+
+}
+
+.our-services__left-block {
+    width: 50%;
+}
+
+.our-services__left-block h2 {
+    position: relative;
+
+    line-height: 46px;
+    letter-spacing: 0.422159px;
+
+    padding-left: 3px;
+    margin-bottom: 6%;
+}
+
+.our-services__left-block p {
+    letter-spacing: 1.8px;
+    margin-bottom: 9.15%;
+    max-width: 539px;
+    letter-spacing: 0.2px;
+}
+
+.our-services__left-block-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    max-width: 227px;
+    min-width: 150px;
+    height: 55px;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 2px solid #FF0000;
+    box-sizing: border-box;
+
+}
+
+
+.our-services__left-block-btn-name {
+    font-family: OpenSans-Bold, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 18.0412px;
+    line-height: 34px;
+    letter-spacing: 0.3195px;
+    color: #FF2D2D;
+    border: 0px;
+
+}
+
+.our-services__list-of_services {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 643px;
+    width: 50%;
+
+    margin-bottom: 3.8%;
+
+}
+
+.our-services__service-box {
+    position: relative;
+    max-width: 312px;
+
+}
+
+.our-services__service-box:nth-of-type(even) {
+    margin-left: 1%;
+    margin-right: 0px;
+}
+
+.our-services__service-box img{
+    margin-bottom: 8%;
+    margin-left: 1%;
+}
+
+.our-services__service-box h4 {
+    padding-left: 3px;
+    margin-bottom: 10%;
+}
+
+.our-services__service-box p {
+    margin-bottom: 11.0%;
+}
+
+
+/*Styles for services - third floor*/
+
+.feature-product {
+    position: relative;
+    max-width: 1432px;
+    min-width: 320px;
+    width: 100%;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.3%;
+
+    text-align: center;
+}
+
+.feature-product h2 {
+    position: relative;
+
+    margin-left: 11.75%;
+    margin-right: 9.26%;
+    margin-bottom: 1.4%;
+
+}
+
+.feature-product p {
+    margin-left: 31.98%;
+    margin-right: 30%;
+    margin-bottom: 1.75%;
+    letter-spacing: 1px;
+}
+
+.product__line {
+    background: #FF2D2D;
+    max-width: 134px;
+    height: 5px;
+
+    margin-left: 46.5%;
+    margin-bottom: 6%;
+
+}
+
+.products__nav-of-products {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+    padding-left: 5.5%;
+    padding-right: 2%;
+
+    min-height: 24px;
+}
+
+.products__nav-items {
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.22px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.products__nav-items:nth-of-type(n+2) {
+    margin-left: 4.5%;
+}
+
+.products__nav-items:hover {
+    color: #FF2D2D;
+    text-decoration: none;
+
+}
+
+.products__list-of-product {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-left: 6.5%;
+    margin-right: auto;
+    margin-top: 3.5%;
+
+    max-width: 1268px;
+    min-height: 625px;
+    list-style-type: none;
+
+}
+
+.products__item-of-list-of-products {
+    width: 297px;
+    height: 283px;
+    margin-right: 1.5%;
+    margin-bottom: 1%;
+    background-color: blue;
+
+}
+
+/*Styles for team - fourth floor*/
+
+.team {
+    position: relative;
+    max-width: 1269.43px;
+    min-width: 320px;
+    width: 100%;
+
+
+    margin-top: 7.3%;
+    margin-left: 8.77%;
+    margin-right: 10.82%;
+
+}
+
+.team h2 {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 1.8%;
+}
+
+.team p {
+    margin-left: 2.3%;
+    margin-right: 60.5%;
+    margin-bottom: 2.3%;
+}
+
+.team .product__line {
+    margin-left: 2.3%;
+    margin-bottom: 5.6%;
+}
+
+.team__team-slider {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    min-height:462px;
+    max-width: 1269.43px;
+    margin-left: 2%;
+    margin-bottom: 8%;
+}
+
+.team__team-slider-team-member-left-section {
+    position: relative;
+    min-width: 320px;
+    max-width: 324px;
+    width: 26%;
+    min-height: 460px;
+    background: #FF3F40;
+
+}
+
+.team__team-slider-right-section {
+    width: 74%;
+    padding-top: 0.6%;
+}
+
+.team__team-slider-right-section h3 {
+    position: relative;
+
+    max-width: 239.83px;
+    min-height: 23px;
+
+    margin-left: 8%;
+    margin-bottom: 2%;
+
+}
+
+.team__team-slider-right-section p {
+    max-width: 662.85px;
+    min-height: 45px;
+
+    margin-left: 8.0%;
+    margin-right: 8.0%;
+    margin-bottom: 4.5%;
+    overflow: auto;
+}
+
+.team__Social-nav {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7.8%;
+    padding-right: 50.6%;
+
+}
+
+.team__Social-nav-item {
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 16%;
+}
+
+.team__Social-nav-item:hover {
+    text-decoration: none;
+}
+
+.team__list-of-members {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 8%;
+}
+
+.team__member-of-team {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    width: 198px;
+    height: 217px;
+
+    background-color: #FF3F40;
+
+
+}
+
+.team__box-for-name {
+    width: 201px;
+
+    min-height: 40px;
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    text-align: center;
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-size: 18.0762px;
+    letter-spacing: 0.165159px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+
+/*Styles for subscribe - fifth floor*/
+.subscribe-form {
+    width: 100%;
+    min-height: 516px;
+
+    background-color: #333333;
+    padding-top: 10.5%;
+
+
+
+}
+
+.subscribe-form h2 {
+    width: 100%;
+
+    letter-spacing: 1.05px;
+    text-transform: none;
+    color: #FFFFFF;
+    
+    text-align: center;
+
+    margin-bottom: 1.0%;
+}
+
+.subscribe-form p {
+    color: #FFFFFF;
+    text-align: center;
+
+    margin-bottom: 2.5%;
+}
+
+.subscribe-form__form {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    text-align: center;
+
+    padding-left: 26%;
+    padding-right: 26%;
+    margin-bottom: 6.2%;
+}
+
+.subscribe-form__form-input {
+    max-width: 524px;
+    width:100%;
+    min-height: 82px;
+
+    padding-left: 5%;
+
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #2C2C2C;
+    margin-bottom: 1%;
+
+
+
+}
+
+.subscribe-form__form-btn {
+    width: 217px;
+    height: 82px;
+
+    font-family: OpenSans-Bold, Helvetica, Arial, sans-serif;
+    font-size: 17.9026px;
+    line-height: 34px;
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+
+    background-color: #FF2D2D;
+
+}
+
+/*Styles for subscribe - sixth floor*/
+
+.replay-form {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 1418px;
+    margin-right: 0%;
+    margin-left: 9.7%;
+    margin-bottom: 6.9%;
+
+}
+
+.replay-form__left-part {
+    max-width: 756.85px;
+    min-height: 771px;
+}
+
+.replay-form__left-part h2 {
+    display: inline-block;
+
+    margin-bottom: 4.5%;
+}
+
+.replay-form__left-part p {
+        margin-bottom: 6.9%;
+}
+
+.replay-form .product__line {
+    margin-left: 0%;
+    margin-bottom: 9.6%;
+}
+
+.replay-form__form {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.replay-form__form-name {
+    max-width: 342px;
+    width:100%;
+    min-height: 71px;
+    color: #000000;
+    background: #e6e6e6;
+
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+
+    margin-right: 5.5%;
+    margin-bottom: 5.5%;
+    margin-left: 0.5%;
+
+    padding-left: 6%;
+
+}
+
+.replay-form__form-email{
+    max-width: 342px;
+    width:100%;
+    min-height: 71px;
+
+    color: #000000;
+    background: #e6e6e6;
+
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+
+    margin-bottom: 5.5%;
+    padding-left: 6%;
+}
+
+.replay-form__form_text {
+    max-width: 734px;
+    width:100%;
+    min-height: 252px;
+
+    color: #000000;
+
+    background: #e6e6e6;
+
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+
+    margin-bottom: 5.8%;
+    margin-left: 0.5%;
+    padding-left: 6%;
+    padding-top: 3.5%;
+    overflow: auto;
+
+}
+
+.replay-form__form-btn {
+    max-width: 731px;
+    width: 100%;
+    height: 75px;
+
+    font-family: OpenSans-Bold, Helvetica, Arial, sans-serif;
+    font-size: 17.9026px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.317046px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background: #FF3B3B;
+}
+.replay-form__right-part {
+    position: relative;
+    width: 577px;
+    min-height: 481px;
+    margin-left: 5%;
+    padding-top: 21%;
+}
+
+.replay-form__right-part-content {
+    position: relative;
+
+    background-color: #333333;
+    mix-blend-mode: normal;
+    
+    bottom: 0%;
+    padding-left: 15%;
+    padding-top: 22.5%;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.replay-form__right-part-content h5 {
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.replay-form__right-part-content p {
+    color: #FFFFFF;
+
+    max-width: 315px;
+    margin-bottom: 4%;
+}
+
+/*Styles for footer*/
+.footer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #313030;
+
+    max-width: 1579px;
+    width: 100vw;
+    min-height: 112px;
+}
+
+.footer__copyright {
+    font-family: OpenSans-Regular, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B8B8B8;
+    margin-left: 10.55%;
+}
+
+.footer__social-icons {
+    margin-right: 10.0%;
+    margin-left: 10.55%;
+
+}
+
+.footer__social-icons a {
+    margin: 0px 7.5px;
+}
+
